@@ -1,7 +1,7 @@
 from src.model.configs.connection import DBConnectionHandler
 from src.model.entities.events import Events
-
-class EventsRepository:
+from .interfaces.events_repository import EventsRepositoryInterface
+class EventsRepository(EventsRepositoryInterface):
   def insert(self, event_name: str) -> None:
     with DBConnectionHandler() as db:
       try:
@@ -11,7 +11,7 @@ class EventsRepository:
       except Exception as exception:
         db.session.rollback()
         raise exception
-      
+
   def select_event(self, event_name: str) -> Events:
     with DBConnectionHandler() as db:
       data = (
