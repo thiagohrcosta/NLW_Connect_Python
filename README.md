@@ -1,5 +1,6 @@
 
 # 🚀 NLW_CONNECT - Event API
+![image](https://github.com/user-attachments/assets/32f59701-0fa4-424c-a989-e3c52ef87804)
 
 ## 📖 About the Project
 
