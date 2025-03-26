@@ -78,7 +78,7 @@ python3 run.py
 
 ## 🎯 Why NLW_CONNECT?
 
-🔹 **Real-World API** ➝ Practical implementation of event management.
-🔹 **User-Friendly** ➝ Simple event registration workflow.
-🔹 **Scalable & Maintainable** ➝ Designed for long-term use.
-🔹 **Python & Flask** ➝ Modern backend stack.
+🔹 **Real-World API** ➝ Practical implementation of event management. </br>
+🔹 **User-Friendly** ➝ Simple event registration workflow. </br>
+🔹 **Scalable & Maintainable** ➝ Designed for long-term use. </br>
+🔹 **Python & Flask** ➝ Modern backend stack. </br>
