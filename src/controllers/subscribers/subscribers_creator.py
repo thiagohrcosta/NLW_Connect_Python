@@ -8,6 +8,7 @@ class SubscribersCreator:
 
   def create(self, http_request: HttpRequest) -> HttpResponse:
     subscriber_info = http_request.body['data']
+    print(subscriber_info)
     subscriber_email = subscriber_info['email']
     event_id = subscriber_info['event_id']
 
